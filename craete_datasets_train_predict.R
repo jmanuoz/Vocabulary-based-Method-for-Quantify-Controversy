@@ -7,7 +7,9 @@ args = commandArgs(trailingOnly=TRUE)
 fileName = args[1]
 load(paste0("datasets/",fileName,".RData"))
 fileName = args[1]
+
 my.com.fast <- walktrap.community(net)
+#my.com.fast <-cluster_louvain(as.undirected(simplify(net)))
 largestCommunities <- order(sizes(my.com.fast), decreasing=TRUE)[1:communitiesQuantity]
 community1 <- names(which(membership(my.com.fast) == largestCommunities[1]))
 community2 <- names(which(membership(my.com.fast) == largestCommunities[2]))
