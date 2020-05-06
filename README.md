@@ -33,3 +33,5 @@ Python and R code to identify automatically controversy on Twitter through text
   
 Tweet's ids used in the paper are in dataset folder grouped by discussion.
  New datasets collected by crear_grafo.R will store in same folder.
+
+In file datasets/Discussion descriptions.pdf there are detail descriptions about each discussion
