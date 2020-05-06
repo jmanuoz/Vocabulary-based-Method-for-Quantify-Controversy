@@ -31,4 +31,5 @@ Python and R code to identify automatically controversy on Twitter through text
 - Example: ./calcular bigil
   ## Datasets
   
-  Datasets used in the paper are in following link https://drive.google.com/drive/folders/16vD9oMI7nPYxJkBTS_bCLueQTPlmPy66?usp=sharing. To test them you will have to download and store them in datasets folder. New datasets collected by crear_grafo.R will store in same folder.
+Tweet's ids used in the paper are in dataset folder grouped by discussion.
+ New datasets collected by crear_grafo.R will store in same folder.
